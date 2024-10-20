@@ -1,3 +1,7 @@
+# Ensure this installs all dependencies
+import os
+os.system('pip install -r requirements.txt')
+          
 import streamlit as st
 import numpy as np
 import pickle
